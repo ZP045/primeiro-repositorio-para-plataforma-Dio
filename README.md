@@ -21,17 +21,17 @@ System.out.print("Digite o valor do abacaxi: ");
 
 abacaxi = Double.parseDouble(System.console().readLine());
 
-if(limao > pera && abacaxi)
+if(limao > pera && abacaxi) {
 
 System.out.printIn("O limão é a fruta mais cara");
 
-if(pera > limao && abacaxi)
+} else if(pera > limao && abacaxi) {
 
 System.out.printIn("A pera é a fruta mais cara");
 
-else 
+} else {
 
 System.out.printIn("O abacaxi é a fruta mais cara");
-
+   }
        }
 }
